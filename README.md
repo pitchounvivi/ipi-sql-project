@@ -2,10 +2,54 @@
 evaluated project
 
 
+===================================================================
+
+# Sujet du projet
+
+Voir fichier .txt fourni
+
+## Récapitulatif
+
+Le but du projet est de créer la base de données PostgreSQL ou SQLite d’une
+application web. Le sujet est libre, même si des contraintes sont fixées.
+
+
+Il faut impérativement un seul fichier SQL, avec des commentaires, comprenant :
+
+- un schéma de base de données avec au moins 8 tables, toutes jointes, avec
+  entre autres :
+  - au moins une relation n-n (donc une table de jointure),
+  - des contraintes, dont des index utiles.
+
+- un jeu des données avec (un peu) de contenu cohérent pour toutes les tables,
+
+- des requêtes réalistes présentant des cas concrets, dont :
+  - au moins une avec LIKE,
+  - au moins une avec GROUP BY et une fonction d’agrégat,
+  - au moins une avec HAVING,
+  - au moins une avec JOIN,
+  - au moins une avec OUTER JOIN.
+
+
+Je ne regarde pas :
+
+- le style (il faut quand même que ce soit lisible…),
+- la quantité de colonnes et de contenu.
+
+
+Je regarde :
+
+- le fait que le script s’exécute tel quel sans erreur,
+- la qualité et la normalisation du modèle de données,
+- le réalisme du jeu de données et le fait qu’il s’articule bien avec les
+  requêtes,
+- la complexité (seulement quand elle est nécessaire),
+- la performance des requêtes (pas la peine d’optimiser à fond, juste éviter
+  les pièges les plus évidents).
 
 ===================================================================
 
-Corrections et commentaires originaux du professeur disponible sur :
+# Corrections et commentaires originaux du professeur disponible sur :
 
 
 https://github.com/pitchounvivi/ipi-python-project/pull/3
